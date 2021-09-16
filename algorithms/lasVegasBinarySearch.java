@@ -1,3 +1,4 @@
+package algorithms;
 public class lasVegasBinarySearch {
     public static int randomBinarySearch(int[] arr, int low, int high, int key) {
         if (high >= low) {

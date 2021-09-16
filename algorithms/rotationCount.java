@@ -1,3 +1,4 @@
+package algorithms;
 public class rotationCount {
     public static int countCWRotationsHelper(int[] arr, int low, int high) {
         if (high < low) {

@@ -1,3 +1,4 @@
+package algorithms;
 class majorityElement {
     //O(n^2)
     public static int naiveMajority(int[] arr) {

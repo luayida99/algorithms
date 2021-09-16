@@ -1,3 +1,4 @@
+package algorithms;
 public class stringSearch {
     public final static int inputSize = 256;
 

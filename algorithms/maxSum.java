@@ -1,3 +1,4 @@
+package algorithms;
 public class maxSum {
     //O(nlogn)
     private static double max(double a, double b, double c) {

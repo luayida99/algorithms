@@ -1,3 +1,4 @@
+package algorithms;
 public class bitonicSearch {
     private static int ascendBinarySearch(int[] arr, int low, int high, int key) {
         while (low <= high) {
