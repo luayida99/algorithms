@@ -1,4 +1,4 @@
-package algorithms;
+
 public class sudokuSolver {
     private static void printBoard(int[][] board) {
         for (int i = 0; i < board.length; i++) {

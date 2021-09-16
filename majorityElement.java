@@ -1,4 +1,4 @@
-package algorithms;
+
 class majorityElement {
     //O(n^2)
     public static int naiveMajority(int[] arr) {
@@ -71,5 +71,10 @@ class majorityElement {
         }
 
         return majority;
+    }
+
+    public static void main(String[] args) {
+        int[] arr = new int[]{1, 1, 1, 2, 4};
+        System.out.println(linearMajority(arr));
     }
 }

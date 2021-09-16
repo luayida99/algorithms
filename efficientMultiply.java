@@ -1,4 +1,4 @@
-package algorithms;
+
 public class efficientMultiply {
     private static int numLength(long n) {
         int len = 0;

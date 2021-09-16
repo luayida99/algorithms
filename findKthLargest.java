@@ -1,4 +1,4 @@
-package algorithms;
+
 public class findKthLargest {
     private static void swap(int[] arr, int i, int j) {
         int temp = arr[i];
