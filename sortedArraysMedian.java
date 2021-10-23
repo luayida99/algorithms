@@ -37,13 +37,13 @@ public class sortedArraysMedian {
         if ((n + m) % 2 == 1) {
             return merged[(n + m)/2];
         } else {
-            return (merged[(n + m)/2] + merged[(n + m - 1)/2])/2;
+            return (merged[(n + m)/2] + merged[(n + m)/2 - 1])/2;
         }
     }
 
     public static void main(String[] args) {
         int[] a1 = {1, 2, 3, 4, 18, 19, 20, 21}; 
-        int[] a2 = {2, 7, 9, 10, 11, 14, 15};
+        int[] a2 = {2, 7, 9, 10, 11, 14, 15, 16, 19};
         System.out.println(findMedian(a1, a2, a1.length, a2.length));
     }
 }
